@@ -21,15 +21,23 @@ laravel-api - https://github.com/arafipro/jpstock-trade-laravel-api
 
 ## 使用ライブラリ
 
+- [Suspense](https://react.dev/reference/react/Suspense)
 - [React Icons v4.10.1](https://react-icons.github.io/react-icons)
 - [React Hook Form v7.45.1](https://www.react-hook-form.com/)
-  - [Schema Validation v3.1.1](https://react-hook-form.com/get-started#SchemaValidation)
+- [Schema Validation v3.1.1](https://react-hook-form.com/get-started#SchemaValidation)
 - [Zod v3.21.4](https://zod.dev/)
+- [Tailwind CSS v3.3.3](https://tailwindcss.com/)
+- [Tailwind cheatsheet](https://tailwindcomponents.com/cheatsheet/)
 - [@tailwindcss/line-clamp v0.4.4](https://github.com/tailwindlabs/tailwindcss-line-clamp)
+- [LangChain v0.0.114](https://js.langchain.com/docs/get_started/introduction)
+- [pdf-parse v1.1.1](https://www.npmjs.com/package/pdf-parse)
+- [@types/pdf-parse v1.1.1](https://www.npmjs.com/package/@types/pdf-parse)
 
 ## 目標
 
 - Next.jsのApp Routerの理解
+- OpenAI APIの理解
+- LangChainの理解
 - React Hook Formの理解
 - Zodの理解
 - Suspenseの理解
