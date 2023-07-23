@@ -10,7 +10,7 @@ export default function SideNavBar({
   hiddensec?: string;
 }) {
   return (
-    <div className={`h-screen w-72 border-r bg-white ${hidden}`}>
+    <div className={`min-h-screen w-72 border-r bg-white ${hidden}`}>
       <SideNavSec>
         <SideNavItem href="/">
           TOP
@@ -42,7 +42,7 @@ export default function SideNavBar({
       <SideNavSec>
         <hr className="border-2" />
         <SideNavTitle>tools</SideNavTitle>
-        <SideNavItem href="/">
+        <SideNavItem href="/openai">
           PDF読み込み
         </SideNavItem>
         <SideNavItem href="/">
