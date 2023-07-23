@@ -1,3 +1,5 @@
 export default function HeadNavBar() {
-  return <div className="bg-white h-16 text-center">header</div>;
+  return (
+    <div className="fixed bg-white h-16 w-full text-center z-0">header</div>
+  );
 }

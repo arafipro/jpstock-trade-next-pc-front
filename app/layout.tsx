@@ -23,12 +23,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="ja" className={notosanjp.className}>
-      <body className="flex w-screen bg-gray-100">
+      <body className="flex w-screen bg-gray-100 overflow-x-hidden scroll-smooth">
         <SideNavBar />
         <div className="w-full">
           <HeadNavBar />
           {/* Main */}
-          <div>{children}</div>
+          <div className="mt-16 ml-72 mr-2">{children}</div>
         </div>
       </body>
     </html>
