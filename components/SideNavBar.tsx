@@ -31,7 +31,6 @@ export default function SideNavBar({
         <hr className="border-2" />
         <SideNavTitle>tools</SideNavTitle>
         <SideNavItem href="/openai">PDF読み込み</SideNavItem>
-        <SideNavItem href="/">銘柄一覧</SideNavItem>
       </SideNavSec>
     </div>
   );

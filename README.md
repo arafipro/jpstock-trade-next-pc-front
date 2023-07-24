@@ -18,6 +18,8 @@ laravel-api - https://github.com/arafipro/jpstock-trade-laravel-api
 ## 使用フレームワーク
 
 - [Next.js v13.4.8](https://nextjs.org/docs)
+- [Tailwind CSS v3.3.3](https://tailwindcss.com/)
+- [LangChain v0.0.114](https://js.langchain.com/docs/get_started/introduction)
 
 ## 使用ライブラリ
 
@@ -26,10 +28,7 @@ laravel-api - https://github.com/arafipro/jpstock-trade-laravel-api
 - [React Hook Form v7.45.1](https://www.react-hook-form.com/)
 - [Schema Validation v3.1.1](https://react-hook-form.com/get-started#SchemaValidation)
 - [Zod v3.21.4](https://zod.dev/)
-- [Tailwind CSS v3.3.3](https://tailwindcss.com/)
-- [Tailwind cheatsheet](https://tailwindcomponents.com/cheatsheet/)
 - [@tailwindcss/line-clamp v0.4.4](https://github.com/tailwindlabs/tailwindcss-line-clamp)
-- [LangChain v0.0.114](https://js.langchain.com/docs/get_started/introduction)
 - [pdf-parse v1.1.1](https://www.npmjs.com/package/pdf-parse)
 - [@types/pdf-parse v1.1.1](https://www.npmjs.com/package/@types/pdf-parse)
 
@@ -44,5 +43,6 @@ laravel-api - https://github.com/arafipro/jpstock-trade-laravel-api
 
 ## 参考資料
 
+- [Tailwind cheatsheet](https://tailwindcomponents.com/cheatsheet/)
 - [React Hook FormとZodの基本的な使い方](https://qiita.com/y-suzu/items/952d417f0853341a97df)
 - [Suspense Fetchを3年実用してみて](https://zenn.dev/knowledgework/articles/d460315cb4c16b#%E3%82%B5%E3%82%A4%E3%83%89%E3%82%BB%E3%83%83%E3%82%B7%E3%83%A7%E3%83%B3%E2%91%A0%3A-suspense-fetch%E3%82%923%E5%B9%B4%E5%AE%9F%E7%94%A8%E3%81%97%E3%81%A6%E3%81%BF%E3%81%A6)
