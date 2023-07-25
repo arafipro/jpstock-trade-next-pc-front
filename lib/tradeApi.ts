@@ -10,16 +10,6 @@ export async function getAllTrades() {
   return res.json();
 }
 
-export async function getTrade(id: number) {
-  const res = await fetch(`${BaseUrl}/${id}`, {
-    cache: "no-store",
-  });
-  if (!res.ok) {
-    console.log(res);
-  }
-  return res.json();
-}
-
 export async function addTrade(trade: Trade): Promise<Trade> {
   if (window.confirm("Are you sure to create this record?")) {
     const res = await fetch(`${BaseUrl}`, {
