@@ -27,11 +27,11 @@ export default function SideNavBar({
         <SideNavItem href="/market">市場一覧</SideNavItem>
         <SideNavItem href="/company">証券会社一覧</SideNavItem>
       </SideNavSec>
-      <SideNavSec>
+      {/* <SideNavSec>
         <hr className="border-2" />
         <SideNavTitle>tools</SideNavTitle>
         <SideNavItem href="/openai">PDF読み込み</SideNavItem>
-      </SideNavSec>
+      </SideNavSec> */}
     </div>
   );
 }

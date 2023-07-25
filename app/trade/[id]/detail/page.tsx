@@ -5,7 +5,7 @@ export default async function Page({ params }: { params: { id: number } }) {
   const trade: Trade = await getTrade(params.id);
 
   return (
-    <div className="rounded-lg mx-12 mt-16 border">
+    <div className="rounded-lg mt-20 mx-4 border">
       <div>
         <dl className="flex border-b pt-4 bg-gray-50">
           <div className="w-1/6">
@@ -95,12 +95,19 @@ export default async function Page({ params }: { params: { id: number } }) {
           <div className="w-1/2">
             <dt className="text-gray-900 pb-4 pl-4">チャート</dt>
             <dd className="bg-white text-gray-600">
-              <Image
-                src={trade.chart_img}
-                width={1600}
-                height={1600}
-                alt="Picture of the author"
-              />
+              {
+                // chart_imgのnull及び空白をチェックしてエラーを回避
+                !trade.chart_img ?? trade.chart_img == "" ? (
+                  <p className="text-center text-red-400 text-xl">No Image</p>
+                ) : (
+                  <Image
+                    src=""
+                    width={1600}
+                    height={1600}
+                    alt="Picture of the author"
+                  />
+                )
+              }
             </dd>
           </div>
         </dl>

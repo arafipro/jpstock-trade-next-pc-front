@@ -1,6 +1,6 @@
 "use client";
 
-import MarketForm from "@/components/MarketForm";
+import MarketForm from "@/components/forms/MarketForm";
 import { updateMarket } from "@/lib/marketApi";
 import { useRouter } from "next/navigation";
 
@@ -14,7 +14,7 @@ export default function Page({ params }: { params: { id: number } }) {
     router.push("/market");
   };
   return (
-    <div className="px-8 py-16 xs:p-0 mx-auto md:w-full md:max-w-md">
+    <div className="p-8 xs:p-0 mx-auto md:w-full md:max-w-md">
       <h1 className="font-bold text-center text-2xl mb-5">市場編集</h1>
       <MarketForm market_id={params.id} onSubmit={onSubmit} onCreate={false} />
     </div>

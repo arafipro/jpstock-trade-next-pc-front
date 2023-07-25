@@ -1,6 +1,6 @@
 "use client";
 
-import TradeForm from "@/components/TradeForm";
+import TradeForm from "@/components/forms/TradeForm";
 import { addTrade } from "@/lib/tradeApi";
 import { useRouter } from "next/navigation";
 
@@ -25,7 +25,7 @@ export default function Page() {
     router.push("/trade");
   };
   return (
-    <div className="px-8 py-16 max-w-screen-lg xs:p-0 mx-auto">
+    <div className="p-8 max-w-screen-lg xs:p-0 mx-auto">
       <h1 className="font-bold text-center text-2xl mb-5">取引登録</h1>
       <TradeForm onSubmit={onSubmit} onCreate={true} />
     </div>

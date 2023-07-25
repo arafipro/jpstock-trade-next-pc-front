@@ -1,6 +1,6 @@
 "use client";
 
-import CompanyForm from "@/components/CompanyForm";
+import CompanyForm from "@/components/forms/CompanyForm";
 import { updateCompany } from "@/lib/companyApi";
 import { useRouter } from "next/navigation";
 
@@ -14,7 +14,7 @@ export default function Page({ params }: { params: { id: number } }) {
     router.push("/company");
   };
   return (
-    <div className="px-8 py-16 xs:p-0 mx-auto md:w-full md:max-w-md">
+    <div className="p-8 xs:p-0 mx-auto md:w-full md:max-w-md">
       <h1 className="font-bold text-center text-2xl mb-5">証券会社編集</h1>
       <CompanyForm
         company_id={params.id}
